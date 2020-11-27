@@ -1,5 +1,5 @@
 ---
-title: "USE-LESS BRAND"
+title: ":)"
 date: 2019-12-23T15:58:10+06:00
 type: portfolio
 image: "images/projects/project-thumb-one.jpg"
@@ -26,3 +26,4 @@ Mystery answer. After entering this mode, the screen initially displays “ask n
 Note: these strings are for the English version of the watch, we will need to use completely different strings in other countries without reprogramming the logic of the watch.
 
 The user may cycle among all modes (date/time, timer, mystery answer) by pressing the mode button.
+
