@@ -1,0 +1,76 @@
+/**
+ * Feuille de style personnalisée
+ ============================================ */
+
+ /* palette de couleur vert: #8ab597 jeune: f3b03e orange: #e7885d rouge: #e55e5d gris: #9d9d9c gris: #beb0a5 */
+ 
+ .btn-primary,
+ .btn-secondary{ 
+     background-color: #f3b03e;
+ }
+ 
+.btn-primary:hover,
+ .btn-secondary:hover{
+     background-color: coral;
+ }
+
+ .navbar-brand {
+     display: flex;
+     align-items: center;
+ }
+ .navbar-brand img {
+    width: 100%;
+ }
+ .blz {
+    margin-top: 18px;
+    font-size: 20px;
+    color: #9d9d9c;
+}
+h1 {
+color: #9d9d9d;
+}
+h2 {
+    color: #e7885d;
+}
+h3 {
+    color: black;
+}
+.site-project-item-content span, .site-blog-post-content span {
+    font-family: montserrat,sans-serif;
+    color: #e7885d;
+    display: block;
+    margin-bottom: 10px;
+}
+h6 {
+    color: #f3b03e;
+}
+.site-navigation .nav-item .nav-link {
+    color: #9d9d9c;
+}
+.site-counter {
+    padding: 85px 0;
+    color: #fff;
+    background: #f3b03e;
+}
+p {
+    color:#9d9d9c;
+}
+.site-project-item-content, .site-blog-post-content {
+    position: absolute;
+    background: #f2f2f2;
+    width: 100%;
+    padding: 45px 50px;
+    bottom: 0;
+    transition: all .3s cubic-bezier(0.36,0.03,0,0.91);
+}
+.site-footer {
+    background:#8ab597;
+    padding: 100px 0;
+}
+.image-logo{
+    display: flex;
+    width: 100px;
+
+   
+}
+
