@@ -23,7 +23,6 @@
     box-shadow: 1px 1px 10px  rgb(230, 230, 230);
 
 }
-
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -40,8 +39,7 @@
 }
 .btn-primary, .btn-secondary {
     background-color: #f3b03e;
-    border-radius
-    : 40px;
+    border-radius: 40px;
 }
 
 .btn-primary:hover, .btn-secondary:hover {
@@ -72,6 +70,7 @@ h3 {
 
 h6 {
     color: #f3b03e;
+    font-size: 24px;
 }
 
 .site-navigation .nav-item .nav-link {
@@ -86,6 +85,9 @@ h6 {
 
 p {
     color: #252525;
+    font-size: 20px;
+    font-family: josefin sans,sans-serif;
+    margin-top: 40px;
 }
 
 .site-project-item-content, .site-blog-post-content {
@@ -107,7 +109,15 @@ p {
     display: flex;
     width: 100px;
 }
-
-/* portfolio */
+.site-project-header {
+    padding: 170px 0 100px;
+    background: rgb(250, 248, 244);
+}
+.site-hero-scroll {
+    position: absolute;
+    left: 97%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
 
 
