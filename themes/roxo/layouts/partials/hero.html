@@ -1,17 +1,17 @@
 {{ with .Site.Params.banner }}
-  {{ if .enable }}
-  {{ "<!-- Site Hero Start -->" | safeHTML }}
+{{ if .enable }}
+{{ "<!-- Site Hero Start -->" | safeHTML }}
+
+<section class="site-hero" style="background-image: url(/images/bliz_back.png);">
   
-  <section class="site-hero" style="background-image: url(/images/bliz-background.png);">
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="site-hero-content text-center">
-            <h6 class="slogan">{{ .tagline }}</h6>
-            <h1>
-              {{ .heading }}
-            </h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="site-hero-content text-center">
+          <h1>
+            {{ .heading }}
+          </h1>
+          <h6 class="slogan">{{ .tagline }}</h6>
             <ul class="site-hero-content-buttons">
               <li>
                 <a href="{{ .primary_button_url | absURL }}" class="btn btn-secondary">
@@ -42,4 +42,4 @@
   </section>
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}
-{{ end }}
+  {{ end }}

@@ -1,0 +1,119 @@
+.blz {
+    margin-top: 18px;
+    font-size: 20px;
+    color: #252525;
+}
+.site-navigation {
+    padding: 15px 0;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all .3s cubic-bezier(0.55,0.085,0.68,0.53);
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    width: 1440px;
+}
+.site-navigation .navbar-toggler .icon-bar {
+    height: 2px;
+    width: 25px;
+    transition: all .2s;
+    background: #f3b03e;
+    display: block;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.site-navigation .navbar-toggler .icon-bar:hover {
+    background: #252525;
+}
+.btn-primary, .btn-secondary {
+    background-color: #f3b03e;
+    border-radius: 40px;
+}
+
+.btn-primary:hover {
+    background-color: #F24B4B;
+}
+.btn-secondary:hover {
+    background-color: #30BFB1;
+}
+h6 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #f3b03e;
+    font-size: 24px;
+}
+h3,
+h5 {
+    color: black;
+}
+h2 {
+    color:#F24B4B;
+}
+h3 {
+    color: black;
+}
+.site-project-item-content span, .site-blog-post-content span {
+    font-family: montserrat, sans-serif;
+    color: #e7885d;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.site-navigation .nav-item .nav-link {
+    color: black;
+}
+.site-counter {
+    padding: 85px 0;
+    color: #fff;
+    background: #30BFB1;
+}
+p {
+    color: #252525;
+    font-size: 20px;
+    font-family: josefin sans,sans-serif;
+    margin-top: 40px;
+}
+.site-project-item-content, .site-blog-post-content {
+    position: absolute;
+    background: #f2f2f2;
+    width: 100%;
+    padding: 45px 50px;
+    bottom: 0;
+    transition: all .3s cubic-bezier(0.36, 0.03, 0, 0.91);
+}
+.site-footer {
+    background: #252525;
+    padding: 100px 0;
+    box-shadow: 2px 2px 7px gray;
+}
+.image-logo {
+    display: flex;
+    width: 100px;
+}
+.site-project-header {
+    padding: 170px 0 100px;
+    background: rgb(250, 248, 244);
+}
+.site-hero-scroll {
+    position: absolute;
+    left: 97%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+.site-hero-content-buttons {
+    margin-top: 100px;
+    padding: 0;
+}
