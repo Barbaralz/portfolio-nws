@@ -1,6 +1,6 @@
 baseURL       = "https://barbaraliz.netlify.app/"
 languageCode  = "fr-FR"
-title         = "b.liz | Developement web"
+title         = "Barbara Lizama | Developement web"
 theme         = "roxo"
 summarylength = 25
 
@@ -50,8 +50,8 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    heading               = "Everything starts with one step"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
+    heading               = ""
+    tagline               = ""
     primary_button        = "Mon travail"
     primary_button_url    = "Contacte"
     secondary_button      = "Connect with Us"
@@ -59,13 +59,13 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    background_image    = "images/backgrounds/logo_barbara.png"
+    background_image    = "/images/bliz-background.png"
     title     = "PROJETS"
     subtitle  = "Apprendre en faisant"
 
   [params.call_to_action]
     enable              = true
-    background_image    = "images/backgrounds/logo_barbara.png"
+    background_image    = "/images/logo_barbara."
     title               = "LET’S WORK TOGETHER"
     primary_button      = "Contact"
     primary_button_url  = "contact"
